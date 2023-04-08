@@ -34,4 +34,34 @@ section#telefone{
     width: 311px;
 
     background: url(/imagens/frame-iphone.png) no-repeat;
+    
+}
+
+iframe#display {
+    position: relative;
+    top: 81px;
+    left: 22.6px;
+    width: 267px;
+    height: 470px;
+}
+
+section#botoes-lado-direito {
+    text-align: right;
+}
+
+section#botoes-lado-direito > a > img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50% 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#botoes-lado-direito img:hover{
+border: 2px solid rgba(255, 255, 255, 0.63);
+
+box-shadow: 5px 5px 10px black;
+transform: translate(-2px, -2px);
+transition: transform 0.3s, border 0.8s; /*velocidade da animação dos bõtoes em segundos*/
 }
